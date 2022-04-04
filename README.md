@@ -39,24 +39,27 @@ Please make sure you have up-to-date NVIDIA drivers supporting CUDA 10.2 at leas
 1. Download all pixelNeRF's pretrained weight files from [here](https://drive.google.com/file/d/1UO_rL201guN6euoWkCOn-XpqR2e8o6ju/view?usp=sharing).
 Extract this to `./pixel-nerf/checkpoints/`, so that `./pixel-nerf/checkpoints/srn_car/pixel_nerf_latest` exists.
 
+2. Launch the Jupyter notebook.
+```sh
+cd pixel-nerf
+jupyter notebook
+```
+
+3. Open `iNeRF.ipynb` and run through it. [Here]() is a 
 
 
 
 # BibTeX
 
 ```
-@misc{yu2020pixelnerf,
-      title={pixelNeRF: Neural Radiance Fields from One or Few Images},
-      author={Alex Yu and Vickie Ye and Matthew Tancik and Angjoo Kanazawa},
-      year={2020},
-      eprint={2012.02190},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{yen2020inerf,
+  title={{iNeRF}: Inverting Neural Radiance Fields for Pose Estimation},
+  author={Lin Yen-Chen and Pete Florence and Jonathan T. Barron and Alberto Rodriguez and Phillip Isola and Tsung-Yi Lin},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems ({IROS})},
+  year={2021}
 }
 ```
 
 # Acknowledgements
 
-Parts of the code were based on from kwea123's NeRF implementation: https://github.com/kwea123/nerf_pl.
-Some functions are borrowed from DVR https://github.com/autonomousvision/differentiable_volumetric_rendering
-and PIFu https://github.com/shunsukesaito/PIFu
+This implementation is based on Alex Yu's [pixel-nerf](https://github.com/sxyu/pixel-nerf).
