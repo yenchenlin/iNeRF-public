@@ -45,8 +45,9 @@ cd pixel-nerf
 jupyter notebook
 ```
 
-3. Open `iNeRF.ipynb` and run through it. [Here]() is a 
+3. Open `pose_estimation.ipynb` and run through it. You can preview the results [here](https://github.com/yenchenlin/iNeRF-public/blob/master/pixel-nerf/pose_estimation.ipynb). In the following, we show the overlay of images rendered with our predicted poses and the target image.
 
+<img src="https://user-images.githubusercontent.com/7057863/161636178-c4f36310-eb62-44fc-abad-7d90b0637de6.gif" width=128>
 
 
 # BibTeX
