@@ -36,8 +36,7 @@ Please make sure you have up-to-date NVIDIA drivers supporting CUDA 10.2 at leas
 
 ## Quick start
 
-1. Download all pixelNeRF's pretrained weight files from
-<https://drive.google.com/file/d/1UO_rL201guN6euoWkCOn-XpqR2e8o6ju/view?usp=sharing>.
+1. Download all pixelNeRF's pretrained weight files from [here](https://drive.google.com/file/d/1UO_rL201guN6euoWkCOn-XpqR2e8o6ju/view?usp=sharing).
 Extract this to `./pixel-nerf/checkpoints/`, so that `<project dir>/checkpoints/srn_car/pixel_nerf_latest` exists.
 
 
