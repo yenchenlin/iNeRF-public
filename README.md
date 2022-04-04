@@ -19,7 +19,7 @@ PyTorch implementation of iNeRF, an RGB-only method that inverts neural radiance
 
 ## Overview
 
-This codebase currently only shows how to apply iNeRF with pixelNeRF. However, iNeRF can work with the original NeRF as well.
+This preliminary codebase currently only shows how to apply iNeRF with pixelNeRF. However, iNeRF can work with the original NeRF as well.
 
 ## Environment setup
 
