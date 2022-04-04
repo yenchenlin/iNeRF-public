@@ -28,6 +28,7 @@ To start, create the environment using conda:
 cd pixel-nerf
 conda env create -f environment.yml
 conda activate pixelnerf
+pip install mediapy
 ```
 
 Alternatively use `pip -r requirements.txt`.
