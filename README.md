@@ -32,8 +32,6 @@ pip install mediapy
 pip install jupyter
 ```
 
-Alternatively use `pip -r requirements.txt`.
-
 Please make sure you have up-to-date NVIDIA drivers supporting CUDA 10.2 at least.
 
 ## Quick start
