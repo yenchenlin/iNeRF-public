@@ -23,3 +23,4 @@ dependencies:
   - torchvision==0.7.0
   - scikit-image==0.17.2
   - tqdm
+  - mediapy
