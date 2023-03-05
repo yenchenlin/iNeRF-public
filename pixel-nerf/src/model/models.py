@@ -265,7 +265,7 @@ class PixelNeRFNet(torch.nn.Module):
             output = output.reshape(SB, B, -1)
         return output
 
-    def load_weights(self, args, opt_init=False, strict=True, device=None):
+    def load_weights(self, args, opt_init=False, strict=False, device=None):
         """
         Helper for loading weights according to argparse arguments.
         Your can put a checkpoint at checkpoints/<exp>/pixel_nerf_init to use as initialization.
